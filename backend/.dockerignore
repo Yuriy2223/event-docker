@@ -1,8 +1,3 @@
-# =============================================
-# BACKEND .DOCKERIGNORE
-# Помістити у: backend/.dockerignore
-# =============================================
-
 node_modules
 dist
 npm-debug.log

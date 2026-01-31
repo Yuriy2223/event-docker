@@ -1,7 +1,4 @@
-# =============================================
-# FRONTEND .DOCKERIGNORE
-# Помістити у: frontend/.dockerignore
-# =============================================
+
 
 node_modules
 dist

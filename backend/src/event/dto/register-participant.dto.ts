@@ -1,9 +1,3 @@
-// export class RegisterParticipantDto {
-//   fullName: string;
-//   email: string;
-//   dob: Date;
-//   referral: string;
-// }
 import { ApiProperty } from '@nestjs/swagger';
 
 export class RegisterParticipantDto {
