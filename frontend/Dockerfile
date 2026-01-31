@@ -1,8 +1,3 @@
-
-# =============================================
-# FRONTEND DOCKERFILE (React + Vite)
-# =============================================
-
 # Stage 1: Development
 FROM node:20-alpine AS development
 

@@ -1,36 +1,3 @@
-# # Stage 2: Build
-# FROM node:20-alpine AS build
-
-# WORKDIR /app
-
-# COPY package*.json ./
-# RUN npm ci
-
-# COPY . .
-
-# # Білдимо для production
-# RUN npm run build
-
-# # Stage 3: Production з Nginx
-# FROM nginx:alpine AS production
-
-# # Копіюємо збілджені файли
-# COPY --from=build /app/dist /usr/share/nginx/html
-
-# # Копіюємо nginx конфігурацію
-# COPY nginx.conf /etc/nginx/conf.d/default.conf
-
-# # Відкриваємо порт
-# EXPOSE 80
-
-# # Запускаємо nginx
-# CMD ["nginx", "-g", "daemon off;"]
-
-# =============================================
-# BACKEND DOCKERFILE (NestJS)
-# Помістити у: backend/Dockerfile
-# =============================================
-
 # Stage 1: Development
 FROM node:20-alpine AS development
 
