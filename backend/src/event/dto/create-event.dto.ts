@@ -1,10 +1,3 @@
-// export class CreateEventDto {
-//   imgUrl: string;
-//   title: string;
-//   description: string;
-//   eventDate: Date;
-//   organizer: string;
-// }
 import { ApiProperty } from '@nestjs/swagger';
 
 export class CreateEventDto {
