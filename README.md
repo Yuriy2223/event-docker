@@ -38,7 +38,7 @@ event-registration/
 
 ## Режими роботи
 
-### Development (розробка)
+### Development
 
 ```bash
 # Запуск з hot reload
