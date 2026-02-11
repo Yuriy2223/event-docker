@@ -1,8 +1,7 @@
 {
-  "name": "event-registration-backend",
+  "name": "event-backend",
   "version": "0.0.1",
   "description": "",
-  "author": "Yuriy Shukan",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
